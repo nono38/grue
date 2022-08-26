@@ -19,7 +19,7 @@ radio.onReceivedNumber(function (receivedNumber) {
     } else if (grue == 3) {
         wuKong.mecanumSpeed(wuKong.WheelList.RightFront_def, receivedNumber)
     } else if (grue == 4) {
-        wuKong.mecanumSpeed(wuKong.WheelList.RightRear_def, 0)
+        wuKong.mecanumSpeed(wuKong.WheelList.RightRear_def, receivedNumber)
     }
     if (receivedNumber == 0) {
         wuKong.mecanumStop()
